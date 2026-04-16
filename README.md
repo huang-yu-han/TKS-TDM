@@ -291,14 +291,14 @@ Stack of 8 standard `TransformerEncoderLayer` blocks (from `models/transformer_b
 If you find this work useful, please cite:
 
 ```bibtex
-@article{huang2025tkstdm,
+@article{huang2026tkstdm,
   title   = {TKS-TDM: A Temporal Key Point Selection Model for Efficient Fault Diagnosis
              of Railway Turnout Actuators Using Multi-Sensor Signals},
   author  = {Huang, Yuhan and Hu, Xiaoxi and He, Yiming and Cao, Jingming and
              Tang, Tao and Shen, Weiming},
   journal = {IEEE Transactions on Transportation Electrification},
-  year    = {2025},
-  doi     = {10.1109/TTE.2025.XXXXXX}
+  year    = {2026},
+  doi     = {10.1109/TTE.2026.3684854}
 }
 ```
 
