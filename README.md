@@ -4,7 +4,7 @@
 
 > **TKS-TDM: A Temporal Key Point Selection Model for Efficient Fault Diagnosis of Railway Turnout Actuators Using Multi-Sensor Signals**
 > *Yuhan Huang, Xiaoxi Hu, Yiming He, Jingming Cao, Tao Tang, Weiming Shen*
-> IEEE Transactions on Transportation Electrification, 2025
+> IEEE Transactions on Transportation Electrification, 2026
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE_TTE-blue)](https://doi.org/10.1109/TTE.2025.XXXXXX)
 [![Python](https://img.shields.io/badge/Python-3.9+-green)](https://www.python.org/)
