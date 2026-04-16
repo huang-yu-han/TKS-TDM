@@ -3,7 +3,7 @@
 **Official implementation of the paper:**
 
 > **TKS-TDM: A Temporal Key Point Selection Model for Efficient Fault Diagnosis of Railway Turnout Actuators Using Multi-Sensor Signals**
-> *Yuhan Huang, Xiaoxi Hu, Yiming He, Jingming Cao, Tao Tang, Weiming Shen*
+> *Yuhan Huang, Xiaoxi Hu, Yiming He, Jingming Cao, Tao Tang, Weiming Shen*,
 > IEEE Transactions on Transportation Electrification, 2026
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE_TTE-blue)](https://doi.org/10.1109/TTE.2025.XXXXXX)
@@ -73,32 +73,6 @@ Input x ∈ R^(B × 9 × 5120)          (9 channels × 5120 time steps)
 - **11.76M parameters, 0.17B FLOPs** — CPU inference latency ~20 ms/sample.
 
 ---
-
-## Results
-
-### Railway Test Line Dataset
-
-| Model | ACC (%) | F1 (%) | AUC (%) | Params (M) | FLOPs (B) |
-|-------|---------|--------|---------|------------|-----------|
-| AlexNet | 91.04 ± 3.11 | 90.91 ± 3.13 | 97.98 ± 1.15 | 57.04 | 3.07 |
-| Wide-ResNet | 98.31 ± 0.78 | 98.27 ± 0.82 | 99.75 ± 0.14 | 66.85 | 16.76 |
-| BiLSTM | 96.39 ± 1.29 | 96.32 ± 1.34 | 99.34 ± 0.41 | 3.54 | 0.68 |
-| MSiT | 97.10 ± 1.47 | 97.06 ± 1.53 | 99.38 ± 0.59 | 24.32 | 2.17 |
-| DS-WCNN | 98.06 ± 0.81 | 98.08 ± 0.80 | 99.72 ± 0.17 | 2.10 | 0.41 |
-| FDCSANet | 97.77 ± 0.91 | 97.74 ± 0.92 | 99.61 ± 0.21 | 2.77 | 0.54 |
-| LD-RPMNet | 97.51 ± 1.34 | 97.50 ± 1.35 | 99.50 ± 0.44 | 12.00 | 0.25 |
-| **TKS-TDM (Ours)** | **99.66 ± 0.34** | **99.91 ± 0.09** | **99.87 ± 0.07** | **11.76** | **0.17** |
-
-### Field Deployment Dataset
-
-| Model | ACC (%) | F1 (%) | AUC (%) |
-|-------|---------|--------|---------|
-| **TKS-TDM (Ours)** | **95.66 ± 1.05** | **95.55 ± 1.12** | **99.38 ± 0.22** |
-
-*All results: mean ± std over 10 independent runs.*
-
----
-
 ## Repository Structure
 
 ```
