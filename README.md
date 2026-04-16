@@ -20,7 +20,7 @@ Railway turnout actuators (RTAs) are safety-critical components. Vibration-based
 
 ### Framework
 
-![TKS-TDM Framework](assets/framework.jpg)
+![TKS-TDM Framework](framework.jpg)
 
 The model consists of three sequential modules:
 
