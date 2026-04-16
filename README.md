@@ -136,10 +136,10 @@ Model: TKS-TDM
   KPSM iters   : 6
   Key points   : 8
   CCM layers   : 8
-  Input shape  : 9 × 5119
+  Input shape  : 9 × 5120
 
 --- Sanity check (random input, forward pass) ---
-  Input  shape : [4, 9, 5119]
+  Input  shape : [4, 9, 5120]
   Logits shape : [4, 16]
   Key pts shape: [4, 8, 1]
   Forward pass  ✓
